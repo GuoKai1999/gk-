@@ -1,0 +1,14 @@
+1.重新刷新
+2.点击多次
+3.网络延时(因网络延时顾客失误点击了多次)
+4.其他人恶意使用URL 发生请求事件，（银行系统修改用户金额）
+
+var falg= true;
+function returncheck(){
+    if（falg）{
+      falg=true；
+       return false；
+   }else{
+    return false；
+}
+}
